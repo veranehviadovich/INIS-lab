@@ -19,37 +19,6 @@ shirts.map((shirt, count) => {
 });
 /* ------------------------------Отрисовка маек------------------------------ */
 
-
-
-/* ------------------------------Отрисовка быстрого просмотра------------------------------ */
-/*document.querySelectorAll('.btns-for__quickview').forEach(btn => {
-    btn.onclick = () => {
-        let quickViewBlock = document.createElement('div');
-        if(document.querySelector('.quick-view__images')) document.querySelector('.quick-view .content').remove();
-
-        quickViewBlock.innerHTML = createQuickView(btn.getAttribute('data-shirt'));
-        document.querySelector('.quick-view').append(quickViewBlock);
-    }
-})
-
-function createQuickView(shirtNumber){
-    return `
-    <div class="content">
-      <div class="quick-view__images">
-        <img src="${shirts[shirtNumber].colors.white.front}" alt="shirt front" class="first-image">
-        <img src="${shirts[shirtNumber].colors.white.back}" alt="shirt back" class="second-image">
-      </div>
-      <div class="quick-view__about">
-        <p class="quick-view__name">${shirts[shirtNumber].name}</p>
-        <p class="quick-view__price">${shirts[shirtNumber].price}</p>
-        <button onclick="document.querySelector('.quick-view .content').remove()" class="quick-view__btn shirt-btns__btn">Close</button>
-      </div>
-    </div>
-    `;
-}*/
-/* ------------------------------Отрисовка быстрого просмотра------------------------------ */
-
-
 /* ------------------------------Запись данных в localStorage для полного просмотра------------------------------ */
 document.querySelectorAll('.btns-for__view').forEach(btn => {
     btn.onclick = () => {
