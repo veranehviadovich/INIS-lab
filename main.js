@@ -22,7 +22,7 @@ shirts.map((shirt, count) => {
 
 
 /* ------------------------------Отрисовка быстрого просмотра------------------------------ */
-document.querySelectorAll('.btns-for__quickview').forEach(btn => {
+/*document.querySelectorAll('.btns-for__quickview').forEach(btn => {
     btn.onclick = () => {
         let quickViewBlock = document.createElement('div');
         if(document.querySelector('.quick-view__images')) document.querySelector('.quick-view .content').remove();
@@ -46,7 +46,7 @@ function createQuickView(shirtNumber){
       </div>
     </div>
     `;
-}
+}*/
 /* ------------------------------Отрисовка быстрого просмотра------------------------------ */
 
 
