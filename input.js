@@ -10,15 +10,6 @@ let startCoordinates = {}; // for move div
 let actionType = '';
 
 
-/* function createCoordinates() {
-    return { x: Math.random() * (clientWidth - 1) + 1, y: Math.random() * (clientHeight - 1) + 1 };
-}
-
-function createSize() {
-    return { width: Math.random() * (500 - 100) + 100, height: Math.random() * (500 - 100) + 100 };
-} */
-
-
 function onClick(event) {
     event.stopPropagation()
 
@@ -121,28 +112,6 @@ function addListeners(array) {
 }
 
 
-
-/*Function creates new 'divs'*/
-
-/* function addDivToWorkspace(event) {
-    newDiv = document.createElement('div');
-    newDiv.classList.add('target');
-
-    size = createSize();
-    coordinates = createCoordinates();
-
-    newDiv.style.width = `${size.width}px`;
-    newDiv.style.height = `${size.height}px`;
-
-    newDiv.style.left =  size.width + coordinates.x <= clientWidth ? `${coordinates.x}px`
-        : `${clientWidth - size.width}px`
-    newDiv.style.top = size.height + coordinates.y <= clientHeight ? `${coordinates.y}px`
-        : `${clientHeight - size.height}px`;
-
-    addListeners([newDiv]);
-    workspace.appendChild(newDiv);
-}
- */
 
 document.addEventListener('touchmove', e => {
     if (e.touches.length > 1) {  
