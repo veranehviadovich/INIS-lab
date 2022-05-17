@@ -460,26 +460,6 @@ footer{
 
 /* --------------------create_your_own.html-------------------- */
 
-/* #workspace {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-	background-color: rgba(0, 255, 200, 0.251);
-} */
-
-.target {
-    position: absolute;
-    border: 2px solid #0d6805;
-    background-color: #20d908b9;
-    border-radius: 8px;
-    transition: background-color 0.2s linear, border-color 0.2s linear;
-}
-
-.target__active {
-    background-color: #159204b9;
-    border-color: #084402;
-}
 
 body.lock{
 	position: relative;
@@ -497,13 +477,13 @@ body.lock{
 
 .target {
 	position: absolute;
-	border: 2px solid #0d6805;
-	background-color: #20d908b9;
+	border: 2px solid #052168;
+	background-color: #9cf0ff;
 	border-radius: 8px;
 	transition: background-color 0.2s linear, border-color 0.2s linear;
 }
 
 .target__active {
-	background-color: #159204b9;
-	border-color: #084402;
+	background-color: #052168;
+	border-color: #2329e8;
 }
