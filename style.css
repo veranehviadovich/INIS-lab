@@ -472,7 +472,7 @@ body.lock{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	background-color: rgba(0, 255, 200, 0.251);
+	background-color: rgb(240, 240, 240);
 }
 
 .target {
